@@ -1,0 +1,1 @@
+fruits.txt,sensitive-info.txt,logs/error.log,logs/output.log

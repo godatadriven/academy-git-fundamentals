@@ -1,0 +1,12 @@
+apple banana
+banana strawberry grape
+orange pineapple *
+grape grape 
+strawberry
+banana tomato
+pineapple orange grape *
+orange orange apple
+orange kiwi *
+apple
+apple
+apple
