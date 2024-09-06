@@ -1,3 +1,13 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu"
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
+    "customizations": { 
+        "codespaces": { 
+            "repositories": { 
+                "lushep/test": { 
+                    "permissions": { "issues": "write" } 
+                    } 
+                    } 
+                    } 
+                }  
 }
