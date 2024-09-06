@@ -4,7 +4,7 @@
     "customizations": {
     "codespaces": {
       "repositories": {
-        "lushep/*": {
+        "**/*": {
           "permissions": {
             "issues": "write"
           }
