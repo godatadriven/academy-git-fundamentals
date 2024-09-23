@@ -3,13 +3,7 @@
 
     "customizations": {
     "codespaces": {
-      "repositories": {
-        "test": {
-          "permissions": {
-            "issues": "write"
-          }
-        }
-      }
+      "repositories": {"lushep-alter/xebia-git-training": { "permissions": "write-all"}}
     }
   }
 }
