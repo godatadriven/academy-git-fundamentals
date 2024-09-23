@@ -1,4 +1,0 @@
-
-# Exercises: GitHub Collaboration
-
-TBA
