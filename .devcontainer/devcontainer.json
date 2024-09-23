@@ -4,7 +4,7 @@
     "customizations": {
     "codespaces": {
       "repositories": {
-        "lushep/test": {
+        "xebia-git-training": {
           "permissions": {
             "issues": "write"
           }
