@@ -12,6 +12,8 @@ There are two options for you to get started with the material.
 
 In the Github repository, click on the green button `Code` and select `Open with Code Spaces`. This will open a new browser tab with a Code Space. You can now start working in the terminal. 
 
+<img src='infra/images/gif-open-codespaces.gif'>
+
 You can also open the container in your local VS Code by clicking on `Open with VS Code` from the command pallette (press `Ctrl + Shift + P` to open the command pallette).
 
 ### Using your own machine 💻
