@@ -3,8 +3,8 @@
 
     "customizations": {
     "codespaces": {
-      "repositories": {"lushep-alter/xebia-git-training": { "permissions": "write-all"}},
-                        "lushep/xebia-git-training": { "permissions": "write-all"}},
+      "repositories": {"lushep-alter/xebia-git-training": { "permissions": "write-all"},
+                        "lushep/xebia-git-training": { "permissions": "write-all"},
 
                         "ArtKuliesas/*": { "permissions": "write-all"},
                         "rokrbc/*": { "permissions": "write-all"},
@@ -31,6 +31,7 @@
                         "jurgazel/*": { "permissions": "write-all"},
                         "agnzks/*": { "permissions": "write-all"},
                         "egivlc/*": { "permissions": "write-all"}
+      }
     }
   }
 }
