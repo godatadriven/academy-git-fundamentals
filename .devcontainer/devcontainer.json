@@ -3,7 +3,33 @@
 
     "customizations": {
     "codespaces": {
-      "repositories": {"lushep-alter/xebia-git-training": { "permissions": "write-all"}}
+      "repositories": {"lushep-alter/xebia-git-training": { "permissions": "write-all"}},
+
+                        "ArtKuliesas/*": { "permissions": "write-all"},
+                        "rokrbc/*": { "permissions": "write-all"},
+                        "gvgv11/*": { "permissions": "write-all"},
+                        "JonasZem/*": { "permissions": "write-all"},
+                        "SigitasZv/*": { "permissions": "write-all"},
+                        "RimantasR/*": { "permissions": "write-all"},
+                        "vyckab/*": { "permissions": "write-all"},
+                        "bagadinas/*": { "permissions": "write-all"},
+                        "mmikulis/*": { "permissions": "write-all"},
+                        "AndriusTraj/*": { "permissions": "write-all"},
+                        "EgleAug/*": { "permissions": "write-all"},
+                        "vlagfn/*": { "permissions": "write-all"},
+                        "Feliksas-lg/*": { "permissions": "write-all"},
+                        "andzej83/*": { "permissions": "write-all"},
+                        "vytautasce/*": { "permissions": "write-all"},
+                        "elvinaslg/*": { "permissions": "write-all"},
+                        "evaldas98/*": { "permissions": "write-all"},
+                        "Art-Buz/*": { "permissions": "write-all"},
+                        "marjasLG/*": { "permissions": "write-all"},
+                        "PovilasBRT/*": { "permissions": "write-all"},
+                        "viliusdrevinskas/*": { "permissions": "write-all"},
+                        "tomzmn-lg/*": { "permissions": "write-all"},
+                        "jurgazel/*": { "permissions": "write-all"},
+                        "agnzks/*": { "permissions": "write-all"},
+                        "egivlc/*": { "permissions": "write-all"}
     }
   }
 }
