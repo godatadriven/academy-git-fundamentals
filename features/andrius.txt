@@ -1,1 +1,0 @@
-Hello, my name is Andrius and this is git.
