@@ -28,14 +28,14 @@ Simulating a Merge Conflict in Codespaces / VS Code
 
 1. Go to your terminal and make sure you are working in `/workspaces/academy-git-fundamentals/exercise-folders`
 
-1. Create a new directory and initialize a Git repository:
+2. Create a new directory and initialize a Git repository:
      ```bash
      mkdir merge-conflict
      cd merge-conflict
      git init
      ```
 
-2. Create a file called `pride-and-prejudice.txt` and add the following content, add and commit the file.
+3. Create a file called `pride-and-prejudice.txt` and add the following content, add and commit the file with the commit message `"Initial commit"`.
 ```
 It is a truth universally acknowledged, that a
 single man in possession of a good fortune,
@@ -45,9 +45,9 @@ a wife.
 
 #### Act as Worker A
 
-4. Create a new branch called `zombies`
+4. Create and checkout a new branch called `zombies`
 
-1. Modify the file to say:
+5. Modify the file to say:
 ```
 It is a truth universally acknowledged, that a
 zombie in possession of brains,
@@ -55,7 +55,7 @@ must be in want of
 more brains.
 ```
 
-8. Add and commit your changes
+6. Add and commit your changes to this branch.
 
 #### Update the main branch
 
@@ -70,20 +70,33 @@ must be in want of
 singlehood. 
 ```
 
+9. Add and commit this change to the main branch.
+
 #### Trigger the conflict
 
-5. Merge the Branch and Trigger a Conflict
+10. Merge the Branch and Trigger a Conflict
      ```bash
-     git merge new-feature
+     git merge zombies
      ```
 
-You should see a **merge conflict** message. Click the button `Resolve in Merge Editor`
+You should see a **merge conflict** message. 
+```
+error: Merging is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+```
 
-6. Resolve the Merge Conflict by deciding which version you prefer and click on the tick button. The click `Complete Merge`
+11. Open the file `pride-and-prejudice.txt` by either **manually editing the file** or by selecting one of the accept buttons.
+```text
+<<<<<<< HEAD
+=======
+>>>>>>> zombies
+```
 
-7. Commit the merge using the `Commit` button.
+12. Add and commit the file in the terminal using `git add` and `git commit` with a message that states it's fixing the merge conflict.
 
-1. In the `main` branch use `git status` to check your working tree is clean. Add and commit any changes with the commit message `"End of merge conflict exercises"
+13. In the `main` branch use `git status` to check your working tree is clean. Add and commit any changes with the commit message `"End of merge conflict exercises"
 
 ### Summary
 - **Why Merge Conflicts Happen**: They occur when two branches have conflicting changes that Git can't automatically reconcile.
