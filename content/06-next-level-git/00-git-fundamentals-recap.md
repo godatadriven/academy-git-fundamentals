@@ -35,4 +35,6 @@ print("Hello, World!")
 
 11. Check the history of the repository using `git log`. Compare this to using ` git log --oneline`.
 
+12. Push your branch up to your remote repo using `git push origin main`
+
 12. In the `main` branch use `git status` to check your working tree is clean.
