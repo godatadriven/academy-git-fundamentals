@@ -1,6 +1,7 @@
 # git and GitHub Fundamentals training 🧑‍🏫
 
 Hey Lucy!!
+A new change
 
 ## Getting started 🧑‍💻
 
